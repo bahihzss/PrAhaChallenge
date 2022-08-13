@@ -1,5 +1,7 @@
 # 回答
 
+https://lucid.app/lucidchart/eb53ad40-8d4d-4564-87bc-41c7409d891a/view
+
 ## 課題１
 
 ### 注文表のデータとは？
@@ -27,12 +29,8 @@
             - 数量
             - オプション
                 - わさび抜き  
-
-![PrAha Challenge - DBモデリング 1 - データモデル.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bae1d06-7aa3-4161-97fb-59be2b0b6be5/PrAha_Challenge_-_DB%E3%83%A2%E3%83%86%E3%82%99%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%99_1_-_%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%86%E3%82%99%E3%83%AB.png)
                 
 ## 課題２
-
-![PrAha Challenge - DBモデリング 1 - データモデル (1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b831daff-14fe-41bb-9208-9bcd83af5a8d/PrAha_Challenge_-_DB%E3%83%A2%E3%83%86%E3%82%99%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%99_1_-_%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%86%E3%82%99%E3%83%AB_(1).png)
 
 - 元からオプションは自由に追加できるようにしていたので、シャリサイズの対応はスキップ
 - 寿司ネタの販売個数カウントのために Product のセット関係を記録するテーブルを追加
@@ -45,5 +43,3 @@
 なのに、タッチパネルにマヨ抜きがなんでないやと・・・。
 
 というわけで、商品ごとに取りうるオプションを変えられるようにしたい。
-
-![PrAha Challenge - DBモデリング 1 - データモデル (2).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b91194f-127c-4aaa-bb5e-fdea5d75a19f/PrAha_Challenge_-_DB%E3%83%A2%E3%83%86%E3%82%99%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%99_1_-_%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%86%E3%82%99%E3%83%AB_(2).png)
