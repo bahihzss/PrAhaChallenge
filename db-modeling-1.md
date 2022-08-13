@@ -4,6 +4,8 @@ https://lucid.app/lucidchart/eb53ad40-8d4d-4564-87bc-41c7409d891a/view
 
 ## 課題１
 
+![課題１](https://lucid.app/publicSegments/view/f24de0f7-7b9d-41c5-a03e-6c8c115c72e0/image.png)
+
 ### 注文表のデータとは？
 
 - セットって言いながら、鉄火丼とか八宝巻がはいってるの気持ち悪い〜
@@ -32,12 +34,16 @@ https://lucid.app/lucidchart/eb53ad40-8d4d-4564-87bc-41c7409d891a/view
                 
 ## 課題２
 
+![課題２](https://lucid.app/publicSegments/view/1f476070-d81b-4217-84ea-d941aa81a59b/image.png)
+
 - 元からオプションは自由に追加できるようにしていたので、シャリサイズの対応はスキップ
 - 寿司ネタの販売個数カウントのために Product のセット関係を記録するテーブルを追加
 
 ## 課題3
 
 ### 自分の考えた仕様変更
+
+![課題3-1](https://lucid.app/publicSegments/view/a436218b-9cb6-4afd-bbe8-96243490707d/image.png)
 
 ```
 コーンのマヨネーズを抜けるようにしたいので、商品ごとに可能なオプションを変えられるようにしたい
@@ -46,6 +52,9 @@ https://lucid.app/lucidchart/eb53ad40-8d4d-4564-87bc-41c7409d891a/view
 Product に対して設定可能なオプションを表現するテーブルを追加
 
 ### Yamaguchi さんからもらった仕様変更
+
+![課題3-2](https://lucid.app/publicSegments/view/2524e42c-8252-4664-9f07-ef2865d7aa95/image.png)
+
 
 ```
 お得意様割引：特定のお得意様のみ20%割引にしたい。
@@ -57,6 +66,8 @@ Product に対して設定可能なオプションを表現するテーブルを
 2. お得意様と判定された場合は、該当するお得意様レコードから取得した割引率で注文の合計金額から割引額を計算し、注文レコードに記録する
 
 ### Furuno さんからもらった仕様変更
+
+![課題3-3](https://lucid.app/publicSegments/view/b12eefbb-a8d0-42d7-b5d7-146fbf8cb103/image.png)
 
 ```
 品切れになってしまったセットメニューやお好みすしが注文されないようにしたい。
