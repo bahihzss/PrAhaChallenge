@@ -2,6 +2,11 @@
 
 ![https://lucid.app/publicSegments/view/38d43c72-176e-4292-8069-83edf60161b0/image.png](https://lucid.app/publicSegments/view/38d43c72-176e-4292-8069-83edf60161b0/image.png)
 
+## 差分で管理する
+
+https://qiita.com/from_kyushu/items/f9f2b7f5fa85cfb695dd
+こんなのを使うと良さそう
+
 ## ディレクトリ構造（ツリー構造）どうやってつくる？
 
 → 閉包テーブルっていうのが良さそう
