@@ -27,9 +27,9 @@ WITH RECURSIVE TreeItems AS (
     CONCAT(Parent.path, '/', CONVERT(Child.id, CHAR)) AS path,
     Parent.depth + 1 AS depth
   FROM TreeItems AS Parent
-    JOIN Message AS Child ON Parent.id = Child.parentMessageId
+    JOIN Message AS Child ON Parent.id = Child.parentMessageId AND Parent.depth < 3
 )
-SELECT * FROM TreeItems WHERE depth = 1;
+SELECT * FROM TreeItems;
 ```
 
 | id | parentMessageId | text               | depth | layer |
