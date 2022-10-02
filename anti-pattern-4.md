@@ -13,26 +13,26 @@ https://teitei-tk.hatenablog.com/entry/2020/11/30/130000
 ```sql
 WITH RECURSIVE TreeItems AS (
   SELECT
-    id, 
-    parentMessageId, 
-    text, 
+    id,
+    parentMessageId,
+    text,
     CONVERT(id, CHAR) AS path,
-    1 as layer
+    1 as depth
   FROM Message WHERE id = 1
   UNION ALL
   SELECT
-    Message.id, 
-    Message.parentMessageId, 
-    Message.text, 
-    CONCAT(TreeItems.path, '/', CONVERT(Message.id, CHAR)) AS path,
-    TreeItems.layer + 1 AS layer
-  FROM TreeItems
-    JOIN Message ON TreeItems.id = Message.parentMessageId
+    Child.id,
+    Child.parentMessageId,
+    Child.text,
+    CONCAT(Parent.path, '/', CONVERT(Child.id, CHAR)) AS path,
+    Parent.depth + 1 AS depth
+  FROM TreeItems AS Parent
+    JOIN Message AS Child ON Parent.id = Child.parentMessageId
 )
-SELECT * FROM TreeItems;
+SELECT * FROM TreeItems WHERE depth = 1;
 ```
 
-| id | parentMessageId | text               | path  | layer |
+| id | parentMessageId | text               | depth | layer |
 |----|-----------------|--------------------|-------|-------|
 |  1 | NULL            | Root Message       |     1 |     1 |
 |  2 |               1 | Message on Layer 2 |   1/2 |     2 |
