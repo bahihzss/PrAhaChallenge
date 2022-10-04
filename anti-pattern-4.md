@@ -32,7 +32,7 @@ WITH RECURSIVE TreeItems AS (
 SELECT * FROM TreeItems;
 ```
 
-| id | parentMessageId | text               | depth | layer |
+| id | parentMessageId | text               | path  | depth |
 |----|-----------------|--------------------|-------|-------|
 |  1 | NULL            | Root Message       |     1 |     1 |
 |  2 |               1 | Message on Layer 2 |   1/2 |     2 |
