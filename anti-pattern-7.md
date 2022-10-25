@@ -7,7 +7,7 @@
 # 課題2
 
 イベントに分ける・・・
-https://lucid.app/publicSegments/view/41eb79ef-9ff4-447b-84f0-bf383d76e5b7/image.png
+![課題2](https://lucid.app/publicSegments/view/41eb79ef-9ff4-447b-84f0-bf383d76e5b7/image.png)
 
 # 課題3
 
