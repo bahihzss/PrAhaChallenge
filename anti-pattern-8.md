@@ -10,11 +10,13 @@
 
 サロゲートキーを使う
 
+```
 TABLE Product {
   id: varchar <- UUID, ULID など
   productCode: varchar
   name: varchar
 }
+```
 
 # 課題3
 
