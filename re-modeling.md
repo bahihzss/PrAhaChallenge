@@ -12,3 +12,7 @@
 ## DBモデリング4
 変更なし
 ![DBモデリング4](https://lucid.app/publicSegments/view/11674bbf-0e29-413e-a9e0-bf679a9d5628/image.png)
+
+## DBモデリング5
+article に title, text を追加
+![DBモデリング5](https://lucid.app/publicSegments/view/511cdb5b-a079-4393-a256-c4654f47d711/image.png)
