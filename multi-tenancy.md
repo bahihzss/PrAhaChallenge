@@ -39,7 +39,7 @@ https://atmarkit.itmedia.co.jp/fdotnet/bookpreview/azureoverview_0301/azureoverv
 # 課題2-2
 https://buildersbox.corp-sansan.com/entry/2021/05/10/110000
 ## テーブル定義時
-* テーブルに tenant_id カラムを作る（Bill Oneでは先頭に作るというルールにしました）
+* テーブルに tenant_id カラムを作る
 * 作成したテーブルに対して、 ENABLE ROW LEVEL SECURITY を適用する
 * 作成したテーブルに対して、 CREATE POLICY する
 ## コネクション取得時
