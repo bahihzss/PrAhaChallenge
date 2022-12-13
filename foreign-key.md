@@ -50,6 +50,6 @@ https://www.postgresql.jp/document/8.0/html/ddl-constraints.html#:~:text=%E5%89%
 NO ACTIONではチェックをトランザクション中で後回しにすることができるのに対し、RESTRICTでは後回しにできないということです。
 
 # 課題3
-Q1. FOREIGN KEY 制約を無効にできますか?
-Q2. FOREIGN KEY 列に NULL 値を含めることはできますか?
+Q1. FOREIGN KEY 制約を無効にできますか?  
+Q2. FOREIGN KEY 列に NULL 値を含めることはできますか?  
 Q3. 
