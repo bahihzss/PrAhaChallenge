@@ -34,7 +34,17 @@ Assignee を削除すると担当者のいない Issue が存在しないとい�
 
 # 課題2-3
 ## Prisma
-ON DELETE: カラムが NOT NULL なら RESTRICT 違えば SET NULL
+ON DELETE: カラムが NOT NULL なら RESTRICT 違えば SET NULL  
 ON UPDATE: CASCADE
 
-## TypeORM
+## Eloquent
+RESTRICT
+
+# 課題2-4
+## MySQL
+ちがいないみたい
+
+## PostgreSQL
+https://www.postgresql.jp/document/8.0/html/ddl-constraints.html#:~:text=%E5%89%8A%E9%99%A4%E3%81%AE%E5%88%B6%E9%99%90,%E5%A4%B1%E6%95%97%E3%81%97%E3%81%BE%E3%81%99%E3%80%82
+
+NO ACTIONではチェックをトランザクション中で後回しにすることができるのに対し、RESTRICTでは後回しにできないということです。
